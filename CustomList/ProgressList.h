@@ -7,6 +7,8 @@ public:
 	virtual ~ProgressList();
 
 	void SetProgressColumn(const int column);
+	void SelectAllItems();
+	void UnselectAllItems();
 
 protected:
 

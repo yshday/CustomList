@@ -65,5 +65,14 @@
     <Image Include="res\CustomList.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="res\sun.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\lightning.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\moon.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>

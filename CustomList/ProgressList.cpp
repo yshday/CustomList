@@ -23,6 +23,18 @@ void ProgressList::SetProgressColumn(const int column)
 }
 
 
+void ProgressList::SelectAllItems()
+{
+	SetItemState(-1, LVIS_SELECTED, LVIS_SELECTED);
+}
+
+
+void ProgressList::UnselectAllItems()
+{
+	SetItemState(-1, 0, LVIS_SELECTED);
+}
+
+
 void ProgressList::OnCustomDraw(NMHDR *pNMHDR, LRESULT *pResult)
 {
 	NMLVCUSTOMDRAW* ncd = reinterpret_cast<NMLVCUSTOMDRAW*>(pNMHDR);
